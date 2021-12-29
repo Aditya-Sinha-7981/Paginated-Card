@@ -23,58 +23,6 @@ const list_items = [
 	"Item 22"
 ];
 
-// const list_items = [
-//     `<li>
-//     <div class="products-image">
-//         <img src="assets/images/gold finger ring.png" alt="Gold finger ring">
-//     </div>
-//     <img src="assets/images/5-stars.png" alt="5-stars">
-//     <h4>Gold finger ring</h4>
-//     <span>Rs.637/-</span>
-//     <a href="#">Add to cart</a>
-//     </li>`,
-
-//     `<li>
-//     <div class="products-image">
-//         <img src="assets/images/gold finger ring.png" alt="Gold finger ring">
-//     </div>
-//     <img src="assets/images/5-stars.png" alt="5-stars">
-//     <h4>Gold finger ring</h4>
-//     <span>Rs.637/-</span>
-//     <a href="#">Add to cart</a>
-//     </li>`,
-
-//     `<li>
-//     <div class="products-image">
-//         <img src="assets/images/gold finger ring.png" alt="Gold finger ring">
-//     </div>
-//     <img src="assets/images/5-stars.png" alt="5-stars">
-//     <h4>Gold finger ring</h4>
-//     <span>Rs.637/-</span>
-//     <a href="#">Add to cart</a>
-//     </li>`,
-
-    // `<li>
-    // <div class="products-image">
-    //     <img src="assets/images/gold finger ring.png" alt="Gold finger ring">
-    // </div>
-    // <img src="assets/images/5-stars.png" alt="5-stars">
-    // <h4>Gold finger ring</h4>
-    // <span>Rs.637/-</span>
-    // <a href="#">Add to cart</a>
-    // </li>`,
-
-//     `<li>
-//     <div class="products-image">
-//         <img src="assets/images/gold finger ring.png" alt="Gold finger ring">
-//     </div>
-//     <img src="assets/images/5-stars.png" alt="5-stars">
-//     <h4>Gold finger ring</h4>
-//     <span>Rs.637/-</span>
-//     <a href="#">Add to cart</a>
-//     </li>`,
-// ]
-
 const list_element = document.getElementById('list');
 const pagination_element = document.getElementById('pagination');
 
@@ -93,8 +41,6 @@ function DisplayList (items, wrapper, rows_per_page, page) {
 		let item = paginatedItems[i];
 
 		let item_element = document.createElement('li');
-		// item_element.classList.add('item');
-		// item_element.innerHTML = item;
 		item_element.innerHTML =  `
             <div class="products-image">
                 <img src="Assets/images/gold finger ring.png" alt="Gold finger ring">
